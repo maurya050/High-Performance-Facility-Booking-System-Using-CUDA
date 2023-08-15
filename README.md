@@ -14,6 +14,7 @@ The goal of this project is to efficiently handle user requests for booking faci
 - Starting time slot for facility usage
 - Number of consecutive time slots to reserve
 
+### Processing:
 * The application processes multiple user requests concurrently using GPU cores to achieve high throughput.
 * If the requested slots are available for the specified facility room, the request is marked as successful. Otherwise, it is considered a failed request.
 
