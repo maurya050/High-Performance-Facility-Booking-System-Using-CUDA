@@ -9,10 +9,10 @@ The Facility Booking Application is designed to manage and allocate facility roo
 The goal of this project is to efficiently handle user requests for booking facility rooms across multiple computer centers. Users can request to book facility rooms for a specific duration (number of time slots) during the day. The application must parallelize the processing of these requests using GPU cores for optimal performance.
 
 ### User Requests(Users provide the following details):
-- Computer center number
-- Facility room number
-- Starting time slot for facility usage
-- Number of consecutive time slots to reserve
+- Computer Center number
+- Number of Facility room
+- Starting time slot for facility room
+- Capacity of the each Facility Room
 
 ### Processing:
 * The application processes multiple user requests concurrently using GPU cores to achieve high throughput.
